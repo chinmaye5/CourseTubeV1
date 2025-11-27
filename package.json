@@ -9,7 +9,13 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "mongodb": "^6.20.0",
+    "@clerk/nextjs": "^6.34.4",
+    "@heroui/navbar": "^2.2.25",
+    "@heroui/system": "^2.4.23",
+    "@heroui/theme": "^2.4.23",
+    "framer-motion": "^12.23.24",
+    "lucide-react": "^0.554.0",
+    "mongodb": "^6.21.0",
     "mongoose": "^8.19.2",
     "next": "16.0.1",
     "react": "19.2.0",
