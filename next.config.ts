@@ -1,12 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  eslint: {
-    // ignoreDuringBuilds: true,
-  },
+  // Remove eslint configuration from here
   typescript: {
-    // ignoreBuildErrors: true,
+    ignoreBuildErrors: false, // Set to true only if needed
   },
-};
+  images: {
+    domains: ['img.clerk.com', 'images.clerk.dev'],
+  },
+  experimental: {
+    serverComponentsExternalPackages: ['@clerk/nextjs'],
+  },
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
