@@ -1,4 +1,4 @@
-🎓 YT Course Builder
+🎓 CourseTube prototype version 1
 
 A mini Next.js app that converts any YouTube video into a structured Udemy-style course.
 
